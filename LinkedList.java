@@ -199,38 +199,6 @@ public class LinkedList<T> implements LinkedListInterface<T>{
 		size = 0;
 	}
 
-	/*@Override
-	public LinkedListNode<T> getHead() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public LinkedListNode<T> getTail() {
-		// TODO Auto-generated method stub
-		return null;
-	}*/
-
-	
-
-
-
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
-	LinkedList<Integer> list = new LinkedList<>();
-	
-	list.addToFront(1);
-	list.addToBack(2);
-	list.addToBack(1);
-	list.addToFront(3);
-	list.addToBack(2);
-	
-	
-	for(int i = 0; i < list.size; i++) {
-		System.out.println(list.get(i));
-	}
-	
-}
 }
 	
 
